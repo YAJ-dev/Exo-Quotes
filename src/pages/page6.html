@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Citation #1 - TopiQuote</title>
+  <title>Citation #6 - TopiQuote</title>
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="../scss/index.scss">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,31 +15,39 @@
 </head>
 
 <body>
-  <header>
-    <ul>
-      <a href="/src/index.html">TopQuote</a>
-      <br>
-      <a href="/src/pages/page1.html">Citation #1</a>
-      <a href="/src/pages/page2.html">Citation #2</a>
-      <a href="/src/pages/page3.html">Citation #3</a>
-      <a href="/src/pages/page4.html">Citation #4</a>
-      <a href="/src/pages/page5.html">Citation #5</a>
-      <a href="/src/pages/page6.html">Citation #6</a>
-      <a href="/src/pages/page7.html">Citation #7</a>
-      <a href="/src/pages/page8.html">Citation #8</a>
-      <a href="/src/pages/page9.html">Citation #9</a>
-    </ul>
-  </header>
+  <div class="page">
+    <header class="menu">
+      <a class="menu-logo" href="/">TopiQuote</a>
+      <nav class="menu-list">
+        <a class="menu-item" href="/src/index.html">Citation #1</a>
+        <a class="menu-item" href="/src/pages/page2.html">Citation #2</a>
+        <a class="menu-item" href="/src/pages/page3.html">Citation #3</a>
+        <a class="menu-item" href="/src/pages/page4.html">Citation #4</a>
+        <a class="menu-item" href="/src/pages/page5.html">Citation #5</a>
+        <a class="menu-item menu-item--current" href="/src/pages/page6.html">Citation #6</a>
+        <a class="menu-item" href="/src/pages/page7.html">Citation #7</a>
+        <a class="menu-item" href="/src/pages/page8.html">Citation #8</a>
+        <a class="menu-item" href="/src/pages/page9.html">Citation #9</a>
+      </nav>
+    </header>
 
-  <main>
-    <h1>Citation #1</h1>
-    <p>Pas trop d'isolement ; pas trop de relations ; le juste milieu, voilà la sagesse.</p>
-    <p>Confucius</p>
-    <a href="/src/pages/page7.html">Citation suivante</a>
-  </main>
+    <main class="content">
+      <section class="content-box">
+        <h1 class="content-title">Citation #6</h1>
+        <blockquote class="content-quote">
+          <p>Pas trop d'isolement ; pas trop de relations ; le juste milieu, voilà la sagesse.</p>
+        </blockquote>
+        <div class="content-author">
+          <button class="content-btn" id="author-btn">Révéler l'auteur</button>
+          <span class="content-name" id="author-name">Confucius</span>
+        </div>
+        <footer class="content-action">
+          <a class="btn" href="/src/pages/page7.html">Citation suivante</a>
+        </footer>
+      </section>
+    </main>
+  </div>
 
-  <footer>
-  </footer>
 </body>
 
 </html>

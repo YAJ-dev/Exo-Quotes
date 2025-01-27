@@ -1,3 +1,8 @@
 @use 'reset-css';
 
 @use 'global.scss';
+
+@use '/src/scss/components/btn';
+@use '/src/scss/components/content';
+@use '/src/scss/components/menu';
+@use '/src/scss/components/page';
